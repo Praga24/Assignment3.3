@@ -26,6 +26,3 @@ Container :
 For each task the resource manager allocates the container, It is the place where the work occurs.
  
 
-
-HDFS 
-YARN MAPREDUCE
