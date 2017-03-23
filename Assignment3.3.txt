@@ -7,7 +7,7 @@ Hadoop 1.x has only a single name node , which in case of failures become diffic
 While in Hadoop 2.x , the HDFS Fedaration allows multiple Namenodes to store different parts of the HDFS.
 Multiple namenodes are used in a Active-Standby mode to handle the cluster during failures.
 
-The other components apart from multiple namenodes , datanodes are
+The other components apart from multiple namenodes ,datanodes are
 
 YARN/MAP REDUCE
 Resource Manager :
