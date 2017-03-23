@@ -1,0 +1,31 @@
+1. Components of Hadoop 2.x :
+The components of Hadoop 2.x are 
+
+HDFS 
+Hadoop 1.x has only a single name node , which in case of failures become difficult to access the hadoop cluster
+,as the secondary name node cannot act as a Name node.
+While in Hadoop 2.x , the HDFS Fedaration allows multiple Namenodes to store different parts of the HDFS.
+Multiple namenodes are used in a Active-Standby mode to handle the cluster during failures.
+
+The other components apart from multiple namenodes , datanodes are
+
+YARN/MAP REDUCE
+Resource Manager :
+This process runs on the master/namenode which is responsible for the jobs submitted by the client.
+It schedules the job to run on the cluster and interacts with the nodemanager.
+
+Node Manager:
+It runs on the slave/datanodes which coordinates with the resource manager to run the task on the data nodes.
+It also tracks the resource utilization and report it back to the resource manager.
+
+Application Master :
+The application master interacts with the resource manager and the node manager ,monitors the containers and 
+the resource consumption.
+
+Container :
+For each task the resource manager allocates the container, It is the place where the work occurs.
+ 
+
+
+HDFS 
+YARN MAPREDUCE
